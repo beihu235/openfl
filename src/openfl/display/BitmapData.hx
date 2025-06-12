@@ -3215,8 +3215,8 @@ class BitmapData implements IBitmapDrawable
 		{
 			this.image = image;
 
-			width = image.width - 1;
-			height = image.height - 1;
+			width = image.width;
+			height = image.height;
 			rect = new Rectangle(0, 0, image.width, image.height);
 
 			__textureWidth = width;
